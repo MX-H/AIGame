@@ -13,6 +13,12 @@ h1 {
 	color: lightgoldenrodyellow;
 }
 
+h2 {
+	margin-top: 50px;
+	font-size: 50px;
+	color: white;
+}
+
 #downloadButton {
 	width: 150px;
 	height: 50px;
@@ -25,9 +31,12 @@ h1 {
 	color: black;
 	margin: 0;
 	position: relative;
-	right: -45%;
+	left: 47%;
 }
 
-button:hover {
-	box-shadow: 0 0 20px gray;
+.videoGuideWrapper {
+	position: relative;
+	left: 35%;
+	margin-top: 20px;
+	margin: 0 auto;
 }
