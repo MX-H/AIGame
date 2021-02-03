@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+	background-image: url("../css/assets/img/bricks_bg.jpg");
+}
+
+h1 {
+	font-size: 150px;
+	text-align: center; 
+	color: lightgoldenrodyellow;
+}
+
+#downloadButton {
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	margin-top: 2rem;
+	padding: 0.5rem;
+	background: lightgoldenrodyellow;
+	color: black;
+	margin: 0;
+	position: relative;
+	right: -45%;
+}
+
+button:hover {
+	box-shadow: 0 0 20px gray;
+}
