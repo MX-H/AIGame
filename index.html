@@ -1,25 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-	<title>AIGame</title>
-</head>
-<body onload="getRandomCard()">
-	<header>
-        <h1>AIGame</h1>
-	</header>
-	<main>
-        <div class=downloadButtonWrapper>
-            <a id="downloadButton" href="AIGame.zip" download>Download</a>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>AIGame</title>
+
+        <!-- CSS -->
+
+        <!-- google fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+        <!-- files -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+
+    <!-- Site Header -->
+        <div class="site-header-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-		
-		<div class=videoGuideWrapper>
-			<h2>Video Tutorial</h2>
-			<iframe id="tutorial" width="560" height="315" src="https://www.youtube.com/embed/q6EoRBvdVPQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-    </main>
-</body>
+        
+    <!-- Header -->
+
+        <section id="header" class="main-header">
+            <div class="container">
+
+                <div class="row">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav-bar" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="site-nav-bar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+                
+                <div class="intro row">
+                    <div class="overlay"></div>
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <p>
+                            An exciting new way to play
+                        </p>
+                        <h2 class="header-quote">Play now for free!</h2>
+                        <a class="btn btn-default btn-download" href="AIGame.zip" download>Download</a>
+                    </div>
+                </div> <!-- /.intro.row -->
+            </div> <!-- /.container -->
+        </section> <!-- /#header -->
+
+    <!-- Archetype -->
+        <section id="archetype" class="archetype">
+            <div class="container section-bg">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box">
+                            <h2 class="title">Welcome to <span>AIGame</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <h2>Choose from a variety of archetypes</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="archetype-box">
+                            <img class="img-responsive" src="assets/images/goblin.jpg" alt="archetype">
+                            <h3 class="archetype-title">Goblins</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="archetype-box">
+                            <img class="img-responsive" src="assets/images/human.jpg" alt="archetype">
+                            <h3 class="archetype-title">Humans</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="archetype-box">
+                            <img class="img-responsive" src="assets/images/faerie.jpg" alt="archetype">
+                            <h3 class="archetype-title">Faeries</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="classic-title">
+                            <div class="striker">
+                                <h3 class="inner-striker">Why AIGame</h3>
+                            </div>
+                            <div class="incline-div"></div>
+                        </div>
+                    </div>
+                    <div class="boxed">
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                "I love trading card games, but never have the time or money to stay relevant in the ever-shifting meta... Everyone I face always has the best cards and I can't catch up"
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                "I just want to play a fun, strategic game without having to learn all these new cards!"
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                If these sentiments resonate with you, then grab a seat and play AIGame! It brings you the fun of card games without the time commitment or monetary investment required in traditional card games, because the deck is generated on the fly!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
