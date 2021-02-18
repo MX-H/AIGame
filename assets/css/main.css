@@ -17,6 +17,14 @@ body{
 .mt0{
 	margin-top: 0;
 }
+.reference-box{
+	text-align: center;
+	padding: 30px 0 50px;
+	text-transform: uppercase;
+}
+.reference-box p{
+	margin-bottom: 0;
+}
 .title-box{
 	text-align: center;
 	padding: 100px 0 50px;
@@ -175,7 +183,7 @@ body{
     font-weight: 300;
 }
 .classic-title{
-	margin-top: 100px;
+	margin-top: 10px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-bottom: 30px;
@@ -312,7 +320,7 @@ body{
 }
 .panel-body {
   padding: 20px;
-  color: #999;
+  color: rgb(0, 0, 0);
   line-height: 1.7;
 }
 .panel-default {
@@ -344,7 +352,7 @@ body{
 	padding-bottom: 60px;
 }
 .mechanics-box{
-	margin-bottom: 60px;
+	margin-bottom: 10px;
 }
 .mechanics-box p{
 	font-size: 13px;
@@ -405,4 +413,14 @@ body{
 		background-repeat: no-repeat;
 		background-position: right 60px bottom 8px;
 	}
+}
+
+.tutorial-img {
+		background-image: url(../images/labeled_game.jpg);
+		background-repeat: no-repeat;
+		height: 600px;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 }

@@ -49,7 +49,7 @@
                         <div class="collapse navbar-collapse" id="site-nav-bar">
                             <ul class="nav navbar-nav">
                                 <li><a href="index.html">Home</a></li>
-                                <li class="active"><a href="about.html">About</a></li>
+                                <li class="active"><a href="about.html">How To Play</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
@@ -84,8 +84,96 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="title-box">
-                            <h2 class="title">Game Mechanics</h2>
+                        <div class="reference-box">
+                            <h2 class="title">Game Components</h2>
+                        </div>
+                    </div>
+                </div>
+            <!-- Game Components -->
+                <div class="mechanics">
+                    <div class="row">
+                        <div class="boxed">
+                            <div class="col-sm-4">
+                                <div class="mechanics-box">
+                                    <div class="mechanics-title">
+                                         <div class="mt-10">
+                                            HP
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Also known as health points. When a player's HP goes to 0, he/she loses the game. When a creature's HP goes to 0, it is destroyed.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mechanics-box">
+                                    <div class="mechanics-title">
+                                         <div class="mt-10">
+                                            Mana
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Mana is used to play cards from the hand. Each card has a mana value at the top-left corner indicating how much it costs to play.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mechanics-box">
+                                    <div class="mechanics-title">
+                                         <div class="mt-10">
+                                            Hand
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Each player has a hand of cards. It is unseen by the opposing player. It can have a maximum of 10 cards.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mechanics-box">
+                                    <div class="mechanics-title">
+                                         <div class="mt-10">
+                                            Creatures
+                                        </div>
+                                    </div>
+                                    <p>
+                                        A creature is a type of card with an attack and HP value. They can be used to engage in combat with the opponent!</p>
+                                    <p>Both you and the opponent has a designated Creature zone, each can have a maximum of 5 creatures. To summon a 6th, you can replace one of the existing creatures.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mechanics-box">
+                                    <div class="mechanics-title">
+                                         <div class="mt-10">
+                                            Spells
+                                        </div>
+                                    </div>
+                                    <p>
+                                        A spell is a card that has an effect immediately. They can be used to turn the tides of battle, whether by dealing damage, giving creatures strength, weakening enemy creatures, or creating mass destruction!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mechanics-box">
+                                    <div class="mechanics-title">
+                                         <div class="mt-10">
+                                            Ambushes
+                                        </div>
+                                    </div>
+                                    <p>
+                                        An ambush is a type of card that can be set on your turn to activate on an opponent's turn. They can be used to surprise the opponent!</p>
+                                    <p>Both you and the opponent has a designated Ambush zone, each can have a maximum of 5 ambushes. This limit cannot be exceeded.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="reference-box">
+                            <h2 class="title">Creature Mechanics</h2>
+                            <p>Each creature can have special mechanics associated with them.</p>
                         </div>
                     </div>
                 </div>
@@ -93,6 +181,18 @@
                 <div class="mechanics">
                     <div class="row">
                         <div class="boxed">
+                            <div class="col-sm-4">
+                                <div class="mechanics-box">
+                                    <div class="mechanics-title">
+                                         <div class="mt-10">
+                                            Breach
+                                        </div>
+                                    </div>
+                                    <p>
+                                        The creature activates this effect after it deals damage to the opponent player.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="col-sm-4">
                                 <div class="mechanics-box">
                                     <div class="mechanics-title">
@@ -155,6 +255,107 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="reference-box">
+                            <h2 class="title">Gameplay Overview</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start of Game -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="classic-title">
+                            <div class="striker">
+                                <h3 class="inner-striker">Start of Game</h3>
+                            </div>
+                            <div class="incline-div"></div>
+                        </div>
+                    </div>
+                    <div class="boxed">
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                Both players start the game with 20 HP, 0 Mana Crystals, and 3 cards in hand. One player randomly gets chosen to go first.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                At the start of a player's turn, he/she permanently gains 1 mana crystal (max 10), has them refilled, and chooses 1 out of 3 cards to add to their hand.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                The player then has 60 seconds to make their moves. This timer is displayed between the two players avatars.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- On your turn -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="classic-title">
+                            <div class="striker">
+                                <h3 class="inner-striker">On your turn</h3>
+                            </div>
+                            <div class="incline-div"></div>
+                        </div>
+                    </div>
+                    <div class="boxed">
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                You can play cards, like summon creatures, cast spells, and set up ambushes. This can be done by dragging the card from your hand onto the board, as long as you have enough mana to play them.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                You can declare combat with your creatures by dragging them to the combat zone. When ready, press the OK button to declare combat. Your opponent now has 30 seconds to set up their defense.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                When you are done, press the End Turn button to give the turn to the opponent.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Opponent's turn -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="classic-title">
+                            <div class="striker">
+                                <h3 class="inner-striker">Opponent's turn</h3>
+                            </div>
+                            <div class="incline-div"></div>
+                        </div>
+                    </div>
+                    <div class="boxed">
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                You can react to opponent's actions with ambushes that you've set. You are given a 30 second opportunity to do this.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                When your opponent declares combat, you can set up your defense by dragging your creatures into the combat zone. Creatures vertically aligned with each other will fight.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p-large">
+                                When your opponent ends turn, you can use set ambushes in response to their turn ending. Otherwise, ou can start your turn by pressing the Start Turn button.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="reference-box">
+                            <h2 class="title">Game Board Reference</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ref image -->
+                <div class="tutorial-img">
                 </div>
 
     </body>
