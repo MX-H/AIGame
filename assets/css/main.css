@@ -94,6 +94,11 @@ body{
 	padding-bottom: 6px;
 }
 
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+
 .main-header{
 	text-transform: uppercase;
 	text-align: center;
