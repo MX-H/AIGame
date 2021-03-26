@@ -35,7 +35,7 @@ body{
 }
 .title{
 	font-weight: 300;
-	color: #999;
+	color: #333;
 	font-size: 36px;
 	letter-spacing: 2px;
 }
@@ -362,7 +362,7 @@ body{
 .mechanics-box p{
 	font-size: 13px;
 	font-weight: 400;
-	color: #969595;
+	color: #333;
 	margin-bottom: 0;
 }
 .mechanics-title{
@@ -401,6 +401,7 @@ body{
 	margin: 0;
 	padding-top: 50px;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 @media (max-width: 677px){
@@ -412,11 +413,6 @@ body{
 @media (min-width: 678px){
 	.tutorial .boxed{
 		padding: 0 95px;
-	}
-	.tutorial .row{
-		background-image: url(../images/tutorial.jpg);
-		background-repeat: no-repeat;
-		background-position: right 60px bottom 8px;
 	}
 }
 
