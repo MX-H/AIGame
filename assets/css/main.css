@@ -417,7 +417,9 @@ body{
 }
 
 .tutorial-img {
-		background-image: url(../images/labeled_game.jpg);
+		background-image: url(../images/labeled_game.png);
+		background-size: contain;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		height: 600px;
 		width: 85%;
