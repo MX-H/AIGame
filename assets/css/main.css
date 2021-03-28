@@ -50,13 +50,13 @@ body{
 .btn-download{
 	border-radius: 0;
 	background-color: #fabe12;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	border-color: transparent;
 	padding: 5px 15px;
 	transition: all 0.4s ease-in-out;
 	letter-spacing: 1px;
-	font-weight: 300;
+	font-weight: 400;
 	margin-top: 15px;
 }
 .btn-download:hover{
