@@ -19,7 +19,7 @@ body{
 }
 .reference-box{
 	text-align: center;
-	padding: 30px 0 50px;
+	padding: 30px 0 0px -50px;
 	text-transform: uppercase;
 }
 .reference-box p{
@@ -426,4 +426,16 @@ body{
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+}
+
+.cards-img {
+	background-image: url(../images/cards.jpg);
+	background-size: contain;
+	background-position: center center; 
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
